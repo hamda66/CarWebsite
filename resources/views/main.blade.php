@@ -85,10 +85,9 @@ ul {
 <img src="/imgs/logo4.png">
 <ul>
 <li><a href="login">Register</a></li>
-<li><a href="brands">Brands</a></li>
-<li><a href="about">About</a></li>
 <li><a href="contact">Contact</a></li>
-
+<li><a href="about">About</a></li>
+<li><a href="brands">Brands</a></li>
 </ul>
 </div>
 <div class="title">
