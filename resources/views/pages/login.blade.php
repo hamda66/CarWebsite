@@ -209,39 +209,6 @@ input[type=submit]:active {
 }
 </style>
 <body>
-<!--
-<?php
-$user = $password ="";
-$usererr = $passworderr ="";
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["user"])) {
-    $usererr = "Username is required";
-  } else {
-    $name = test_input($_POST["user"]);
-  }
- 
-  if (empty($_POST["password"])) {
-    $passworderr = "Password is required";
-  } else {
-    $password = test_input($_POST["password"]);
-  }
-}
-
-function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
-}
-if(!empty($_POST["password"])&&!empty($_POST["user"])){
-echo '<script>alert("Thank you for shopping with us!
-Your package will be with you in 2 days")</script>';  
-                   
-  echo '<script>window.location="Home.php"</script>';  
-}
-?>
--->
 
 <div class="login">
   <h1>Register Here</h1>
@@ -257,7 +224,7 @@ Your package will be with you in 2 days")</script>';
         Remember me on this computer
       </label>
     </p>
-    <p class="submit"><input type="submit" name="commit" value="submit"><h1 button onclick="alert('You are registered!')"><button></h1></p>
+    <p class="submit"><input type="submit" name="commit" value="submit"></h1></p>
   </form>
 </div>
 

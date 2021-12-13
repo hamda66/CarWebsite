@@ -83,11 +83,12 @@ ul {
 <div class="main">
 <div class="logo"> </div>
 <img src="/imgs/logo4.png">
-<ul> 
+<ul>
+<li><a href="login">Register</a></li>
 <li><a href="brands">Brands</a></li>
 <li><a href="about">About</a></li>
 <li><a href="contact">Contact</a></li>
-<li><a href="login">Register</a></li>
+
 </ul>
 </div>
 <div class="title">
