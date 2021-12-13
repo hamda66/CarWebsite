@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\Models",
+    "\\database",
+    "\\database\\migrations",
+    "\\public",
+    "\\public\\css",
+    "\\public\\imgs",
+    "\\resources",
+    "\\resources\\views"
+  ],
+  "SelectedNode": "\\app\\Models\\Product.php",
+  "PreviewInSolutionExplorer": false
+}
