@@ -215,9 +215,7 @@ input[type=submit]:active {
   <form method="post" action="">
   <p><span class="error">* required field</span></p>
     <p><input type="text" name="user" value="" placeholder="Vaild Username or Email"></p>
-<span class="error"></span>
     <p><input type="password" name="password" value="" placeholder="Password"></p>
-<span class="error"></span>
     <p class="remember_me">
       <label>
         <input type="checkbox" name="remember_me" id="remember_me">
