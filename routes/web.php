@@ -22,3 +22,7 @@ Route::get('brands', 'pagecontroller@brands');
 Route::get('about', 'pagecontroller@about');
 Route::get('contact', 'pagecontroller@contact');
 Route::get('login', 'pagecontroller@login');
+
+//use app\Http\Controllers\regController;[pagecontroller::class,'addData']
+//Route::view('register','login');
+Route::post('register','pagecontroller@addData');

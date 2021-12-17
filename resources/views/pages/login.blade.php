@@ -212,9 +212,9 @@ input[type=submit]:active {
 
 <div class="login">
   <h1>Register Here</h1>
-  <form method="" action="">
+  <form method="POST" action="register">
   <p><span class="error">* required field</span></p>
-    <p><input type="text" name="user" value="" placeholder="Vaild Username or Email"></p>
+    <p><input type="text" name="email" value="" placeholder="Vaild Username or Email"></p>
     <p><input type="password" name="password" value="" placeholder="Password"></p>
     <p class="remember_me">
       <label>

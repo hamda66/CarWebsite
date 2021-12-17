@@ -9,8 +9,9 @@
     "\\public\\css",
     "\\public\\imgs",
     "\\resources",
-    "\\resources\\views"
+    "\\resources\\views",
+    "\\resources\\views\\pages"
   ],
-  "SelectedNode": "\\app\\Models\\Product.php",
+  "SelectedNode": "\\composer.json",
   "PreviewInSolutionExplorer": false
 }

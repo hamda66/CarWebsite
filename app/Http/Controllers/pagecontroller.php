@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\users;
+
 class pagecontroller extends Controller
 {
    
@@ -21,5 +23,14 @@ class pagecontroller extends Controller
    public function login(){
        return view('pages.login');
    }
+
+  
+   function addData(Request $req){ 
+    $users= new Users;
+    $users->email = $req->email;
+    $users->Password = $req->password;     
+    $users->save(); 
+
+}
 
 }
