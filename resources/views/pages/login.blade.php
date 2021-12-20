@@ -213,22 +213,23 @@ input[type=submit]:active {
 <div class="login">
   <h1>Register Here</h1>
   <form method="POST" action="register">
+  @csrf
   <p><span class="error">* required field</span></p>
     <p><input type="text" name="email" value="" placeholder="Vaild Username or Email"></p>
     <p><input type="password" name="password" value="" placeholder="Password"></p>
-    <p class="remember_me">
+  <!--  <p class="remember_me">
       <label>
         <input type="checkbox" name="remember_me" id="remember_me">
         Remember me on this computer
-      </label>
+      </label>-->
     </p>
-    <p class="submit"><input type="submit" name="commit" value="submit"></h1></p>
+    <p class="submit"><input id="submit" type="submit" name="submit" value="submit"></h1></p>
   </form>
 </div>
 
 <div class="login-help">
-  <p>Forgot your password? <a href="#">Click here to reset it</a>.</p>
-</div>
+  <!--<p>Forgot your password? <a href="#">Click here to reset it</a>.</p> -->
+</div> 
 
 </html>
 </body>

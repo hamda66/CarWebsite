@@ -9,5 +9,7 @@ class users extends Model
 {
     use HasFactory;
     //n public $timestamps=false;
+
+   
    
 }

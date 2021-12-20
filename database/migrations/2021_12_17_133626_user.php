@@ -14,11 +14,12 @@ class User extends Migration
     public function up()
     {
          Schema::create('comment', function (Blueprint $table) {
-             $table->increments('id');
+                $table->increments('id');
                 $table->string('email');
                 $table->string('Password');
                 $table->softDeletes();
                 $table->timestamps();
+                //$table->('id')->nullable();
         });
     }
 
