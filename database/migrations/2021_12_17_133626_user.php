@@ -19,7 +19,7 @@ class User extends Migration
                 $table->string('Password');
                 $table->softDeletes();
                 $table->timestamps();
-                //$table->('id')->nullable();
+                
         });
     }
 

@@ -75,7 +75,6 @@ ul {
         transform: translateX(-50%)translateY(-50%);
     }
 
-
 </style>
 </head>
 <body>
@@ -84,7 +83,8 @@ ul {
 <div class="logo"> </div>
 <img src="/imgs/logo4.png">
 <ul>
-<li><a href="login">Register</a></li>
+<li><a href="register">Register</a></li>
+<li><a href="login">Login</a></li>
 <li><a href="contact">Contact</a></li>
 <li><a href="about">About</a></li>
 <li><a href="brands">Brands</a></li>

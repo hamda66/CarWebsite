@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\Exceptions",
     "\\app\\Http",
-    "\\app\\Models",
-    "\\database",
-    "\\database\\migrations",
+    "\\app\\Http\\Controllers",
+    "\\public",
     "\\resources",
     "\\resources\\views",
+    "\\resources\\views\\pages",
+    "\\routes",
     "\\vendor"
   ],
-  "SelectedNode": "\\app\\Http\\Controllers\\regController.php",
+  "SelectedNode": "\\composer.json",
   "PreviewInSolutionExplorer": false
 }
