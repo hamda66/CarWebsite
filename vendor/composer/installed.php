@@ -5,20 +5,11 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '664d8c5fda4a0ae222ea21976ce4975f9af2ecfa',
+        'reference' => 'cd542c431d448829a306f7dd3d776a3ae3c323c1',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
     'versions' => array(
-        'alexandresalome/php-selenium' => array(
-            'pretty_version' => 'v1.1.0',
-            'version' => '1.1.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../alexandresalome/php-selenium',
-            'aliases' => array(),
-            'reference' => '5578adde63b72aa453e37fee4a7729ce770310af',
-            'dev_requirement' => true,
-        ),
         'asm89/stack-cors' => array(
             'pretty_version' => 'v2.0.3',
             'version' => '2.0.3.0',
@@ -35,7 +26,7 @@
             'install_path' => __DIR__ . '/../behat/behat',
             'aliases' => array(),
             'reference' => 'a55661154079cf881ef643b303bfaf67bae3a09f',
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'behat/gherkin' => array(
             'pretty_version' => 'v4.9.0',
@@ -44,7 +35,7 @@
             'install_path' => __DIR__ . '/../behat/gherkin',
             'aliases' => array(),
             'reference' => '0bc8d1e30e96183e4f36db9dc79caead300beff4',
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'behat/mink' => array(
             'pretty_version' => 'v1.9.0',
@@ -53,16 +44,22 @@
             'install_path' => __DIR__ . '/../behat/mink',
             'aliases' => array(),
             'reference' => 'e35f4695de8800fc776af34ebf665ad58ebdd996',
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
-        'behat/mink-selenium-driver' => array(
-            'pretty_version' => 'v1.2.0',
-            'version' => '1.2.0.0',
+        'behat/mink-extension' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => 'v2.6.1',
+            ),
+        ),
+        'behat/mink-selenium2-driver' => array(
+            'pretty_version' => 'v1.5.0',
+            'version' => '1.5.0.0',
             'type' => 'mink-driver',
-            'install_path' => __DIR__ . '/../behat/mink-selenium-driver',
+            'install_path' => __DIR__ . '/../behat/mink-selenium2-driver',
             'aliases' => array(),
-            'reference' => '5efe8a3437608203bbf45638e6a8a81736e286cd',
-            'dev_requirement' => true,
+            'reference' => '0dee8cceed7e198bf130b4af0fab0ffab6dab47f',
+            'dev_requirement' => false,
         ),
         'behat/transliterator' => array(
             'pretty_version' => 'v1.3.0',
@@ -71,7 +68,7 @@
             'install_path' => __DIR__ . '/../behat/transliterator',
             'aliases' => array(),
             'reference' => '3c4ec1d77c3d05caa1f0bf8fb3aae4845005c7fc',
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'brick/math' => array(
             'pretty_version' => '0.9.3',
@@ -192,6 +189,15 @@
             'aliases' => array(),
             'reference' => 'f056f1fe935d9ed86e698905a957334029899895',
             'dev_requirement' => true,
+        ),
+        'friends-of-behat/mink-extension' => array(
+            'pretty_version' => 'v2.6.1',
+            'version' => '2.6.1.0',
+            'type' => 'behat-extension',
+            'install_path' => __DIR__ . '/../friends-of-behat/mink-extension',
+            'aliases' => array(),
+            'reference' => 'df04efb3e88833208c3a99a3efa3f7e9f03854db',
+            'dev_requirement' => false,
         ),
         'fruitcake/laravel-cors' => array(
             'pretty_version' => 'v2.0.4',
@@ -433,6 +439,15 @@
                 0 => 'v8.76.2',
             ),
         ),
+        'instaclick/php-webdriver' => array(
+            'pretty_version' => '1.4.10',
+            'version' => '1.4.10.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../instaclick/php-webdriver',
+            'aliases' => array(),
+            'reference' => '6bc1f44cf23031e68c326cd61e14ec32486f241b',
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -463,7 +478,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '664d8c5fda4a0ae222ea21976ce4975f9af2ecfa',
+            'reference' => 'cd542c431d448829a306f7dd3d776a3ae3c323c1',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -1053,7 +1068,7 @@
             'install_path' => __DIR__ . '/../symfony/config',
             'aliases' => array(),
             'reference' => 'e39cf688c80fd79ab0a6a2d05a9facac9b2d534b',
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/console' => array(
             'pretty_version' => 'v5.4.1',
@@ -1080,7 +1095,7 @@
             'install_path' => __DIR__ . '/../symfony/dependency-injection',
             'aliases' => array(),
             'reference' => '9bd1ef389a2fe05fea7306b6155403e8a960d73d',
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/deprecation-contracts' => array(
             'pretty_version' => 'v2.5.0',
@@ -1090,15 +1105,6 @@
             'aliases' => array(),
             'reference' => '6f981ee24cf69ee7ce9736146d1c57c2780598a8',
             'dev_requirement' => false,
-        ),
-        'symfony/dom-crawler' => array(
-            'pretty_version' => 'v2.8.52',
-            'version' => '2.8.52.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../symfony/dom-crawler',
-            'aliases' => array(),
-            'reference' => '2cdc7d3909eea6f982a6298d2e9ab7db01b6403c',
-            'dev_requirement' => true,
         ),
         'symfony/error-handler' => array(
             'pretty_version' => 'v5.4.1',
@@ -1140,7 +1146,7 @@
             'install_path' => __DIR__ . '/../symfony/filesystem',
             'aliases' => array(),
             'reference' => '731f917dc31edcffec2c6a777f3698c33bea8f01',
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/finder' => array(
             'pretty_version' => 'v5.4.0',
@@ -1296,7 +1302,7 @@
             'dev_requirement' => false,
         ),
         'symfony/service-implementation' => array(
-            'dev_requirement' => true,
+            'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0|2.0',
             ),
@@ -1350,7 +1356,7 @@
             'install_path' => __DIR__ . '/../symfony/yaml',
             'aliases' => array(),
             'reference' => '034ccc0994f1ae3f7499fa5b1f2e75d5e7a94efc',
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'theseer/tokenizer' => array(
             'pretty_version' => '1.2.1',

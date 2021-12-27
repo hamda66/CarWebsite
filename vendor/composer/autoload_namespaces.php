@@ -6,7 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Selenium' => array($vendorDir . '/alexandresalome/php-selenium/src'),
+    'WebDriver' => array($vendorDir . '/instaclick/php-webdriver/lib'),
     'Mockery' => array($vendorDir . '/mockery/mockery/library'),
+    'Behat\\MinkExtension' => array($vendorDir . '/friends-of-behat/mink-extension/src'),
     'Behat\\Gherkin' => array($vendorDir . '/behat/gherkin/src'),
 );

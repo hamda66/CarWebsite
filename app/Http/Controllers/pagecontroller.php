@@ -35,4 +35,16 @@ class pagecontroller extends Controller
 
 }
 
+function addComment(Request $req){
+  
+   $Comment = new Comment;
+   $Comment->name= $req->email;
+    $Comment->email = $req->email;
+    $Comment->Country = $req->Country;
+    $Comment->Message = $req->Message;    
+    $Comment->save();
+    
+
+}
+
 }

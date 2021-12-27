@@ -275,7 +275,8 @@ function test_input($data) {
 			</button>
 
 			
-			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="contact100-form validate-form">  
+			<form method="post" action="comment" class="contact100-form validate-form">
+            @csrf
 				<span class="contact100-form-title">
 					Contact Us
 				</span>
@@ -299,9 +300,9 @@ function test_input($data) {
 				<div class="wrap-input100 rs1-wrap-input100">
 				 <label for="country">Country</label>
     <select id="country" name="country">
-      <option value="australia">Sweden</option>
-      <option value="canada">Norway</option>
-      <option value="usa">Denmark</option>
+      <option value="Sweden">Sweden</option>
+      <option value="Norway">Norway</option>
+      <option value="Denmark">Denmark</option>
     </select>
 	</div>
 

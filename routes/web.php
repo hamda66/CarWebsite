@@ -27,3 +27,5 @@ Route::get('register', 'pagecontroller@registerpage');
 //use app\Http\Controllers\regController;[pagecontroller::class,'addData']
 //Route::view('register','login');
 Route::post('register','pagecontroller@addData');
+Route::post('comment','pagecontroller@addComment');
+

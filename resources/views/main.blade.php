@@ -91,7 +91,8 @@ ul {
 </ul>
 </div>
 <div class="title">
-<h1 button onclick="alert('Welcome To PERFECT WHEELS Offical Website!')">PERFECT WHEELS<button></h1>
+<!--<h1 button onclick="alert('Welcome To PERFECT WHEELS Offical Website!')">PERFECT WHEELS<button></h1>-->
+<h1>PERFECT WHEELS Offical Website!<h1>
 <element id="content"></element>
 </div>
 </header>

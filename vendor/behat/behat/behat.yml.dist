@@ -1,8 +1,0 @@
-default:
-extensions:
-        Behat\MinkExtension\Extension:
-            goutte: ~
-            selenium2: ~
-  gherkin:
-    filters:
-      tags: ~@php8
