@@ -27,9 +27,9 @@ class pagecontroller extends Controller
   
    function addData(Request $req){
   
-    $users= new users;
-    $users->email = $req->email;
-    $users->Password = $req->password;     
+    $users= new users();
+    $users->email = [$req->email];
+    $users->Password = [$req->password];     
     $users->save();
     
 
