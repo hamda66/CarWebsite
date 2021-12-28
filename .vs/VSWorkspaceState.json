@@ -4,13 +4,14 @@
     "\\app",
     "\\app\\Http",
     "\\app\\Http\\Controllers",
+    "\\app\\Models",
+    "\\database",
+    "\\database\\migrations",
+    "\\database\\seeders",
     "\\public",
-    "\\resources",
-    "\\resources\\views",
-    "\\resources\\views\\pages",
-    "\\routes",
-    "\\vendor"
+    "\\vendor\\behat",
+    "\\vendor\\behat\\behat"
   ],
-  "SelectedNode": "\\composer.json",
+  "SelectedNode": "\\resources\\views\\pages\\contact.blade.php",
   "PreviewInSolutionExplorer": false
 }

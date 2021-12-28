@@ -284,7 +284,7 @@ function test_input($data) {
 				<div class="wrap-input100 rs1-wrap-input100 validate-input">
 				
 				<label for="fname">First Name</label>
-    <input class="label-input100" type="text" id="fname" name="firstname" placeholder="Your name.." value="<?php echo $name;?>">
+    <input class="label-input100" type="text" id="fname" name="name" placeholder="Your name.." value="<?php echo $name;?>">
   <span class="error"> <?php echo $nameErr;?></span>
 	
 					<span class="focus-input100"></span>
