@@ -35,7 +35,7 @@ class pagecontroller extends Controller
     
     //Session::flash('flash_message', 'Event added!');
 
-    return redirect()->route('to any route you wish'); 
+    return redirect()->route('/main'); 
 
 }
 
