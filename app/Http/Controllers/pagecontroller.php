@@ -31,7 +31,11 @@ class pagecontroller extends Controller
     $users->email = $req->email;
     $users->Password = $req->Password;     
     $users->save();
-    
+
+    /*
+    Session::flash('flash_message', 'Event added!');
+
+    return redirect()->route('to any route you wish'); */
 
 }
 

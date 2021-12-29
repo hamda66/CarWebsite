@@ -13,7 +13,7 @@ class User extends Migration
      */
     public function up()
     {
-         Schema::create('comment', function (Blueprint $table) {
+         Schema::create('users', function (Blueprint $table) {
                 $table->increments('id');
                 $table->string('email');
                 $table->string('Password');
@@ -30,6 +30,6 @@ class User extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('comment');
+        Schema::dropIfExists('users');
     }
 }
