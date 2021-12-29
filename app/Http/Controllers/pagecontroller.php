@@ -33,7 +33,7 @@ class pagecontroller extends Controller
     $users->save();
 
     
-    Session::flash('flash_message', 'Event added!');
+    //Session::flash('flash_message', 'Event added!');
 
     return redirect()->route('to any route you wish'); 
 
