@@ -29,7 +29,7 @@ class pagecontroller extends Controller
   
     $users= new users();
     $users->email = $req->email;
-    $users->Password = $req->Password;     
+    $users->password = $req->password;     
     $users->save();
 
     /*
