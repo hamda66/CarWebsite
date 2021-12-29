@@ -32,10 +32,10 @@ class pagecontroller extends Controller
     $users->password = $req->password;     
     $users->save();
 
-    /*
+    
     Session::flash('flash_message', 'Event added!');
 
-    return redirect()->route('to any route you wish'); */
+    return redirect()->route('to any route you wish'); 
 
 }
 
