@@ -2,16 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\Http",
-    "\\app\\Http\\Controllers",
-    "\\app\\Models",
+    "\\app\\Exceptions",
     "\\database",
     "\\database\\migrations",
-    "\\database\\seeders",
     "\\public",
-    "\\vendor\\behat",
-    "\\vendor\\behat\\behat"
+    "\\public\\imgs",
+    "\\resources",
+    "\\resources\\views",
+    "\\resources\\views\\pages",
+    "\\routes"
   ],
-  "SelectedNode": "\\resources\\views\\pages\\contact.blade.php",
+  "SelectedNode": "\\app\\Exceptions\\Handler.php",
   "PreviewInSolutionExplorer": false
 }

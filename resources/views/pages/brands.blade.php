@@ -3,7 +3,7 @@
 <html>
 <head>
 <title>Perfect Wheels</title>
-<link rel="stylesheet" type="text/css" href="{{ secure_asset('/css/Brand.css') }}">
+<!--<link rel="stylesheet" type="text/css" href="{{ secure_asset('/css/Brand.css') }}">-->
 <style>
 *{
 	margin:0;
@@ -89,7 +89,7 @@ color:#000;
 	width:300px;
 	position: center;
 }
-<style>
+</style>
 </head>
 <body>
 <header>
@@ -105,12 +105,12 @@ color:#000;
 </div>
 <div class="title">
 <h1>Brands<button></h1>
-<img class="img-BMW" src="BMW LOGO.png" >
-<img class="img-FERRARI" src="FERRARI LOGO.png" >
-<img class="img-BUGGATI" src="BUGGATI LOGO.png" >
-<img class="img-LAMBO" src="LAMBO LOGO.png" >
-<img class="img-MERCEDES" src="MERCEDES LOGO.png" >
-<img class="img-BENTLEY" src="BENTLEY LOGO.png" >
+<img class="img-BMW" src="/imgs/White-Ferrari.jpg" >
+<img class="img-FERRARI" src="/imgs/White-Lambo.jpg" >
+<img class="img-BUGGATI" src="/imgs/White-Ferrari.jpg" >
+<img class="img-LAMBO" src="/imgs/White-Lambo.jpg" >
+<img class="img-MERCEDES" src="/imgs/White-Ferrari.jpg" >
+<img class="img-BENTLEY" src="/imgs/White-Lambo.jpg" >
 
 <element id="content"></element>
 </div>

@@ -31,6 +31,14 @@ class Handler extends ExceptionHandler
      * Register the exception handling callbacks for the application.
      *
      * @return void
+
+     public function render($request, Exception $e)
+    {
+       if ($exception instanceof \Illuminate\Session\TokenMismatchException) {
+    return redirect()->route('pages.login');
+}
+    }
+}
      */
     public function register()
     {
@@ -38,4 +46,4 @@ class Handler extends ExceptionHandler
             //
         });
     }
-}
+      
