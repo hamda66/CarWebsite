@@ -33,7 +33,8 @@ Route::GET('login','pagecontroller@addlogin');
 
 Route::group(['middleware'=>'customAuth'],function(){ 
    //
-   Route::GET('login','pagecontroller@addlogin');Route::post('register','pagecontroller@addData');
+   Route::GET('login','pagecontroller@addlogin');
+   Route::post('register','pagecontroller@addData');
     });
 
 Auth::routes();
