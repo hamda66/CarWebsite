@@ -212,11 +212,11 @@ input[type=submit]:active {
 
 <div class="login">
   <h1>Login Here</h1>
-<!-- <form method="POST" action="register">  
-  @csrf -->
+<form method="GET" action="login">  
+  @csrf 
   <p><span class="error">* required field</span></p>
-    <p><input type="text" name="email" value="" placeholder="Vaild Username or Email"></p>
-    <p><input type="password" name="password" value="" placeholder="Password"></p>
+    <p><input type="text" name="email" value="{{ old('email') }}" placeholder="Vaild Username or Email"></p>
+    <p><input type="text" name="password" value="" placeholder="Password"></p>
    <p class="remember_me">
       <label>
         <input type="checkbox" name="remember_me" id="remember_me">

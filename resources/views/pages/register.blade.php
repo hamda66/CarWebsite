@@ -210,18 +210,48 @@ input[type=submit]:active {
 </style>
 <body>
 
+<?php
+// define variables and set to empty values
+$nameErr = $emailErr = $genderErr = $websiteErr = "";
+$name = $email = $gender = $comment = $website = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["password"])) {
+    $nameErr = "password is required";
+  } else {
+    $name = test_input($_POST["password"]);
+  }
+  
+  if (empty($_POST["email"])) {
+    $emailErr = "Email is required";
+  } else {
+    $email = test_input($_POST["email"]);
+  }
+  
+}
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?>
+
 <div class="login">
   <h1>Register Here</h1>
   <form method="POST" action="register">
   @csrf
+
   <p><span class="error">* required field</span></p>
     <p><input type="text" name="email" value="" placeholder="Vaild Username or Email"></p>
-    <p><input type="password" name="password" value="" placeholder="password"></p>
-  <!--  <p class="remember_me">
-      <label>
-        <input type="checkbox" name="remember_me" id="remember_me">
-        Remember me on this computer
-      </label>-->
+  @error('email')
+<div class="alert alert-danger">{{ error }}</div>
+@enderror
+    <p><input type="text" name="password" value="" placeholder="password"></p>
+    @error('password')
+<div class="alert alert-danger">{{ error }}</div>
+@enderror
     </p>
     <p class="submit"><input id="submit" type="submit" name="submit" value="submit"></h1></p>
   </form>

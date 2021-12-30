@@ -2,16 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\Exceptions",
-    "\\database",
-    "\\database\\migrations",
-    "\\public",
-    "\\public\\imgs",
-    "\\resources",
-    "\\resources\\views",
-    "\\resources\\views\\pages",
-    "\\routes"
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
+    "\\tests",
+    "\\tests\\Feature",
+    "\\tests\\Unit",
+    "\\vendor",
+    "\\vendor\\bin",
+    "\\vendor\\bin\\features",
+    "\\vendor\\bin\\features\\bootstrap"
   ],
-  "SelectedNode": "\\app\\Exceptions\\Handler.php",
+  "SelectedNode": "\\composer.json",
   "PreviewInSolutionExplorer": false
 }

@@ -1,23 +1,11 @@
 default:
- extensions:
+  suites:
+    default:
+      path: '%paths.base%/features'
+      contexts: [Behat\MinkExtension\Context\MinkContext]
+  extensions:
     Behat\MinkExtension:
-      base_url: 'http://127.0.0.1:8000'
+      base_url: https://car-website-wheels.herokuapp.com/
       sessions:
         default:
           goutte: ~
-          #selenium2: ~
-            #  browser: "firefox"
-             # wd_host: http://localhost:4444/wd/hub
-gherkin:
-    filters:
-      tags: ~@php8
-paths:
-        features: features
-        bootstrap: '%behat.paths.features%/bootstrap'
-suites:
- default:
-      contexts:
-        - FeatureContext
-        - Behat\MinkExtension\Context\MinkContext
-
-        
