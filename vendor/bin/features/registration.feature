@@ -5,5 +5,4 @@ Feature: registration
     Scenario: 
         Given I input in a email "email"
         And I input in a password "password"
-        And I press submit button
-        
+       

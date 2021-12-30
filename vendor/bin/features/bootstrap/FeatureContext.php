@@ -24,10 +24,8 @@ class FeatureContext extends MinkContext implements Context
 {
 
     public $registeruser;
+    private $comment;
 
-
-
-    
 
     /**
      * @Given I input in a email :arg1
@@ -45,55 +43,47 @@ class FeatureContext extends MinkContext implements Context
     {
         $this->registeruser->addPassword($arg1);
 
-
     }
 
-    /**
-     * @Given I press submit button
+
+      /**
+     * @Given I input in a name :arg1
      */
-    public function iPressSubmitButton()
+    public function iInputInAName($arg1)
     {
-        $findName = $this->getPage()->find('xpath', "//input[contains(@id,'submit')]");
-         //$this->getSession()->getPage()->find("css", arg1 );
-         
-        if (!$findName) {
-            throw new Exception('submit' . "could not be found");
-        } else {
-            $findName->click();
-        }
-/* 
-        ##ver 2 ' 
-         $button = $this->getSession()->getPage()
-            ->find('css', '#submit' );
-        assertNotNull($button,'Could not find the submit button!');
-        $button->press();*/
-
-        
+       $this->comment=new comment();
+       $this->comment->addGuestname($arg1);
     }
 
-     
-
-
     /**
-     * @Given I am on mainpage
+     * @Given I input in a message :arg1
      */
-    public function iAmOnMainpage()
+    public function iInputInAMessage($arg1)
     {
-        $this->visit('/main');
-        //$this->page = $this->session->getPage();
-
+    $this->comment=new comment();
+       $this->comment->addGuestMessage($arg1);
     }
 
     /**
-     * @Then I should see :arg1 text
+     * @Given I input in a country :arg1
      */
-    public function iShouldSeeText($arg1)
-    { 
-        $arg1=$text;
-        $text = $this->getSession()->getPage()
-        ->find('css', 'h1' );
-    assertNotNull($text,'PERFECT WHEELS Offical Website');
-    $text->press();
+    public function iInputInACountry($arg1)
+    {
+    $this->comment=new comment();
+    $this->comment->addGuestcountry($arg1);
+    }
+
+      /**
+     * @Given I input in my email :arg1
+     */
+    public function iInputInMyEmail($arg1)
+    {
+         $this->comment->addGuestEmail($arg1);
     }
 
 }
+
+
+
+   
+

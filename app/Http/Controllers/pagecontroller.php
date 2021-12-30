@@ -27,7 +27,10 @@ class pagecontroller extends Controller
     public function registerpage(){
        return view('pages.register');
    }
-  
+   public function store(){
+    return view('pages.store');
+}
+
    public function addData(Request $req){
   
     $users= new users();

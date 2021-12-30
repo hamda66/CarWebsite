@@ -16,7 +16,9 @@ class UserComments extends Migration
          Schema::create('UserComments', function (Blueprint $table) {
                 $table->increments('id');
                 $table->string('email');
-                $table->string('Password');
+                $table->string('Message');
+                $table->string('Country');
+                $table->string('Name');
                 $table->softDeletes();
                 $table->timestamps();
                 

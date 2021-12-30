@@ -23,12 +23,14 @@ Route::get('about', 'pagecontroller@about');
 Route::get('contact', 'pagecontroller@contact');
 Route::get('login', 'pagecontroller@login');
 Route::get('register', 'pagecontroller@registerpage');
+Route::get('store', 'pagecontroller@store');
 
 //use app\Http\Controllers\regController;[pagecontroller::class,'addData']
 //Route::view('register','login');
 
 Route::post('comment','pagecontroller@addComment');
 Route::GET('login','pagecontroller@addlogin');
+Route::post('register','RegisterController@addData');
 
 
 Route::group(['middleware'=>'customAuth'],function(){ 
