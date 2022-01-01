@@ -18,7 +18,7 @@ class CreateUserComments extends Migration
                 $table->string('email');
                 $table->string('Message');
                 $table->string('Country');
-                $table->string('Name');
+                $table->string('name');
                 $table->softDeletes();
                 $table->timestamps();
                 
@@ -32,6 +32,6 @@ class CreateUserComments extends Migration
      */
     public function down()
     {
-       Schema::dropIfExists('UserComments');
+       //Schema::dropIfExists('UserComments');
     }
 }
