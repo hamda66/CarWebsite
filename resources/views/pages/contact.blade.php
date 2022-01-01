@@ -275,7 +275,7 @@ function test_input($data) {
 			</button>
 
 			
-			<form method="post" action="addComment" class="contact100-form validate-form">
+			<form method="POST" action="addComment" class="contact100-form validate-form">
             @csrf
 				<span class="contact100-form-title">
 					Contact Us
