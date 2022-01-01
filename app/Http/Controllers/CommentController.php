@@ -17,7 +17,7 @@ class CommentController extends Controller
     $Comment->Country = $req->Country;
     $Comment->Message = $req->Message;    
     $Comment->save();
-    return Redirect::to('main');
+    //return Redirect::to('main');
 
 }
 }
