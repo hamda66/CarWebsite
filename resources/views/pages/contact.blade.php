@@ -275,7 +275,7 @@ function test_input($data) {
 			</button>
 
 			
-			<form method="post" action="comment" class="contact100-form validate-form">
+			<form method="post" action="addComment" class="contact100-form validate-form">
             @csrf
 				<span class="contact100-form-title">
 					Contact Us
@@ -299,7 +299,7 @@ function test_input($data) {
 				
 				<div class="wrap-input100 rs1-wrap-input100">
 				 <label for="country">Country</label>
-    <select id="country" name="country">
+    <select id="country" name="Country">
       <option value="Sweden">Sweden</option>
       <option value="Norway">Norway</option>
       <option value="Denmark">Denmark</option>
@@ -308,7 +308,7 @@ function test_input($data) {
 
 				<div class="wrap-input100" data-validate="Message is required">
 					<span class="label-input100">Message</span>
-					<textarea class="input100" name="message" placeholder="Your message here..."><?php echo $comment;?></textarea>
+					<textarea class="input100" name="Message" placeholder="Your message here..."><?php echo $comment;?></textarea>
 					<span class="focus-input100"></span>
 				</div>
 
