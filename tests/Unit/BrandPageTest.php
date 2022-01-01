@@ -4,7 +4,7 @@ namespace Tests\Unit;
 
 use Tests\TestCase;
 
-class ContactPageTest extends TestCase
+class BrandPageTest extends TestCase
 {
     /**
      * A basic unit test example.

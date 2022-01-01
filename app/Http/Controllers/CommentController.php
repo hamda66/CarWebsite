@@ -22,4 +22,4 @@ class CommentController extends Controller
 }
 }
 
-}
+

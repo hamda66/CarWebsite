@@ -32,16 +32,5 @@ class UserTest extends TestCase
 
         $this->assertTrue($user1->email != $user2->email);
     }
-
-public function test_new_users(){
-    $response = $this->post('/register',[
-        'name'=>'hamda',
-        'email'=>'hamda@gmail.com',
-        'password'=>'hamdapass',
-        'password_confirmation'=>'hamdapass'
-    ]);
-
-    $this->assertTrue(true);
-}    
-
+   
 }

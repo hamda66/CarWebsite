@@ -106,11 +106,11 @@ color:#000;
 <div class="title">
 <h1>Brands<button></h1>
 <img class="img-BMW" src="/imgs/White-Ferrari.jpg" >
-<img class="img-FERRARI" src="/imgs/White-Lambo.jpg" >
+<img class="img-FERRARI" src="/imgs/White-lambo.jpg" >
 <img class="img-BUGGATI" src="/imgs/White-Ferrari.jpg" >
-<img class="img-LAMBO" src="/imgs/White-Lambo.jpg" >
+<img class="img-LAMBO" src="/imgs/White-lambo.jpg" >
 <img class="img-MERCEDES" src="/imgs/White-Ferrari.jpg" >
-<img class="img-BENTLEY" src="/imgs/White-Lambo.jpg" >
+<img class="img-BENTLEY" src="/imgs/White-lambo.jpg" >
 
 <element id="content"></element>
 </div>
