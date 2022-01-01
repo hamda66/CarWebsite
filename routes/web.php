@@ -30,7 +30,7 @@ Route::get('store', 'pagecontroller@store');
 
 Route::post('comment','pagecontroller@addComment');
 Route::GET('login','pagecontroller@addlogin');
-Route::post('register','RegisterController@addData');
+Route::post('register','pagecontroller@addData');
 
 
 Route::group(['middleware'=>'customAuth'],function(){ 
