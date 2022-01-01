@@ -42,4 +42,4 @@ Route::group(['middleware'=>'customAuth'],function(){
 
 Auth::routes();
 
-Route::get('/main', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/main', [App\Http\Controllers\HomeController::class, 'index'])->name('main');
