@@ -42,7 +42,7 @@ public function addData(Request $req){
     $users->password = $req->password;     
     $users->save();
 }
-/*
+
 function addComment(Request $req){
   
    $Comment = new Comment;
@@ -54,6 +54,6 @@ function addComment(Request $req){
     return Redirect::to('main');
 
 }
-*/
+
  
 } 
