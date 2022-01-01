@@ -25,7 +25,7 @@ class pagecontroller extends Controller
        return view('pages.login');
    }
     public function registerpage(){
-       return view('pages.register');
+       return view('Auth.register');
     }
    public function store(){
     return view('pages.store');

@@ -11,8 +11,8 @@
                 <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="addData">
-                    <!-- <form method="POST" action="{{ route('register') }}">-->
+                     <!--<form method="POST" action="creatw">-->
+                    <form method="POST" action="{{ route('register') }}">
                     @csrf
 
                         <div class="row mb-3">
