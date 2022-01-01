@@ -29,6 +29,7 @@ Route::get('store', 'pagecontroller@store');
 //Route::view('register','login');
 
 Route::post('contact','pagecontroller@addComment');
+Route::post('contact','CommentController@addComment');
 Route::GET('login','pagecontroller@addlogin');
 Route::post('register','pagecontroller@addData');
 
