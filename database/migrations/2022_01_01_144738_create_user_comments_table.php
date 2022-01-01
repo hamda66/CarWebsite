@@ -15,11 +15,10 @@ class CreateUserCommentsTable extends Migration
     {
          Schema::create('UserComment', function (Blueprint $table) {
                 $table->increments('id');
+                $table->string('name');
                 $table->string('email');
                 $table->string('Message');
                 $table->string('Country');
-                $table->string('name');
-                $table->softDeletes();
                 $table->timestamps();
                 
         });
@@ -32,6 +31,6 @@ class CreateUserCommentsTable extends Migration
      */
     public function down()
     {
-       Schema::dropIfExists('UserComments');
+       Schema::dropIfExists('UserComment');
     }
 }

@@ -55,6 +55,5 @@ function addComment(Request $req){
 
 }
 */
-
  
 } 
