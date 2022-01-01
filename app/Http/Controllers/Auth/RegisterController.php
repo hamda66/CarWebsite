@@ -64,10 +64,10 @@ class RegisterController extends Controller
     public function addData(Request $req){
   
     $users= new User();
+    $users->name = $req->name; 
     $users->email = $req->email;
     $users->password = $req->password;     
     $users->save();
-    
 
 }
 
