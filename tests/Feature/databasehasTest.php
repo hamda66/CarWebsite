@@ -15,8 +15,8 @@ class databasehasTest extends TestCase
      */
     public function test_detabase()
     {
-        $this->assertDatabaseHas('products', [
-            'Name' => 'tesla'
+        $this->assertDatabaseHas('users', [
+            'name' => 'Hamda@gmail.com'
         ]);
     }
 }
