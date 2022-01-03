@@ -15,7 +15,7 @@
                 <img src="/imgs/White-lambo.jpg" alt="..." class="img-responsive">
                 <div class="caption">
                     <h3>Lambo</h3>
-                    <p class="description">this a lambo. its fast.</p>
+                    <p class="description">Color:white Type:Petrol</p>
                     <div class="clearfix">
                         <div class="pull-left price">$120,000</div>
                         <a href="#" class="btn btn-success pull-right" role="button">Add to Cart</a>
@@ -25,12 +25,12 @@
         </div>
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="/imgs/White-lambo.jpg" alt="..." class="img-responsive">
+                <img src="/imgs/download.jpeg" alt="..." class="img-responsive">
                 <div class="caption">
-                    <h3>Lambo</h3>
-                    <p class="description">This is a lambo. its super fast!</p>
+                    <h3>Fait 500</h3>
+                    <p class="description">Color:white Type:Petrol</p>
                     <div class="clearfix">
-                        <div class="pull-left price">$120,000</div>
+                        <div class="pull-left price">$16,000</div>
                         <a href="#" class="btn btn-success pull-right" role="button">Add to Cart</a>
                     </div>
                 </div>
@@ -40,12 +40,12 @@
 
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="/imgs/White-lambo.jpg" alt="..." class="img-responsive">
+                <img src="/imgs/car.jpeg" alt="..." class="img-responsive">
                 <div class="caption">
-                    <h3>Lambo</h3>
-                    <p class="description">This is a lambo. its super fast!</p>
+                    <h3>BMW</h3>
+                    <p class="description">Color:Orange Type:Diesel</p>
                     <div class="clearfix">
-                        <div class="pull-left price">$120,000</div>
+                        <div class="pull-left price">$125,000</div>
                         <a href="#" class="btn btn-success pull-right" role="button">Add to Cart</a>
                     </div>
                 </div>
@@ -55,12 +55,12 @@
 
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="/imgs/White-lambo.jpg" alt="..." class="img-responsive">
+                <img src="/imgs/White-Ferrari.jpg" alt="..." class="img-responsive">
                 <div class="caption">
-                    <h3>Lambo</h3>
-                    <p class="description">This is a lambo. its super fast!</p>
+                    <h3>Ferrari</h3>
+                    <p class="description">Color: white Tpye:Petrol</p>
                     <div class="clearfix">
-                        <div class="pull-left price">$120,000</div>
+                        <div class="pull-left price">$130,000</div>
                         <a href="#" class="btn btn-success pull-right" role="button">Add to Cart</a>
                     </div>
                 </div>
