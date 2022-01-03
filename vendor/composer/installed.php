@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '7c6ec8e64ea69a477330a3adef8c06821deab138',
+        'reference' => 'd089e1fa01f9890b864f6144b52ade91f1e48b4f',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -574,7 +574,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '7c6ec8e64ea69a477330a3adef8c06821deab138',
+            'reference' => 'd089e1fa01f9890b864f6144b52ade91f1e48b4f',
             'dev_requirement' => false,
         ),
         'laravel/legacy-factories' => array(
@@ -1174,6 +1174,15 @@
             'aliases' => array(),
             'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
             'dev_requirement' => false,
+        ),
+        'sirbrillig/spies' => array(
+            'pretty_version' => 'v1.10.0',
+            'version' => '1.10.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../sirbrillig/spies',
+            'aliases' => array(),
+            'reference' => '099c0c847d445e30e5ebd06da362a408285ed813',
+            'dev_requirement' => true,
         ),
         'swiftmailer/swiftmailer' => array(
             'pretty_version' => 'v6.3.0',

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a42b72920378667f9674ea132fac0759",
+    "content-hash": "4b31809f7c9e3da7744e23757bc07002",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -9696,6 +9696,61 @@
                 }
             ],
             "time": "2021-06-15T12:49:02+00:00"
+        },
+        {
+            "name": "sirbrillig/spies",
+            "version": "v1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sirbrillig/spies.git",
+                "reference": "099c0c847d445e30e5ebd06da362a408285ed813"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sirbrillig/spies/zipball/099c0c847d445e30e5ebd06da362a408285ed813",
+                "reference": "099c0c847d445e30e5ebd06da362a408285ed813",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "antecedent/patchwork": "^2.0.0",
+                "phpunit/phpunit": "^5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Spies": "src/"
+                },
+                "files": [
+                    "src/Spies/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Payton Swick",
+                    "email": "payton@foolord.com"
+                }
+            ],
+            "description": "Easier spies, stubs, and mocking for PHP tests",
+            "homepage": "https://github.com/sirbrillig/spies",
+            "keywords": [
+                "mocking",
+                "phpunit",
+                "spies",
+                "spy",
+                "stubs"
+            ],
+            "support": {
+                "issues": "https://github.com/sirbrillig/spies/issues",
+                "source": "https://github.com/sirbrillig/spies/tree/master"
+            },
+            "time": "2017-10-30T22:13:10+00:00"
         }
     ],
     "aliases": [],

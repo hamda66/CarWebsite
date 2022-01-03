@@ -39,6 +39,7 @@ class ComposerStaticInitb4535d9d55d099ad7759c10fb64e47fd
         '2a3c2110e8e0295330dc3d11a4cbc4cb' => __DIR__ . '/..' . '/php-webdriver/webdriver/lib/Exception/TimeoutException.php',
         'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
         'a1af1fc0cffb5f61cbaf64dbe030fdb9' => __DIR__ . '/..' . '/laravel/legacy-factories/helpers.php',
+        '87bdbb51288b85ed9730e08db9b18a06' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -631,6 +632,13 @@ class ComposerStaticInitb4535d9d55d099ad7759c10fb64e47fd
             'WebDriver' => 
             array (
                 0 => __DIR__ . '/..' . '/instaclick/php-webdriver/lib',
+            ),
+        ),
+        'S' => 
+        array (
+            'Spies' => 
+            array (
+                0 => __DIR__ . '/..' . '/sirbrillig/spies/src',
             ),
         ),
         'M' => 
@@ -5796,6 +5804,35 @@ class ComposerStaticInitb4535d9d55d099ad7759c10fb64e47fd
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'Spies\\AnyValue' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/AnyValue.php',
+        'Spies\\ArgumentFormatter' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/ArgumentFormatter.php',
+        'Spies\\BaseConstraint' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/BaseConstraint.php',
+        'Spies\\Expectation' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/Expectation.php',
+        'Spies\\FailureGenerator' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/FailureGenerator.php',
+        'Spies\\FalseyValue' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/FalseyValue.php',
+        'Spies\\GlobalExpectations' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/GlobalExpectations.php',
+        'Spies\\GlobalSpies' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/GlobalSpies.php',
+        'Spies\\Helpers' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/Helpers.php',
+        'Spies\\InvalidExpectationException' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/InvalidExpectationException.php',
+        'Spies\\InvalidFunctionNameException' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/InvalidFunctionNameException.php',
+        'Spies\\MatchArray' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/MatchArray.php',
+        'Spies\\MatchPattern' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/MatchPattern.php',
+        'Spies\\MockObject' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/MockObject.php',
+        'Spies\\PHPUnit\\ConstraintWrapper' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/PHPUnit/ConstraintWrapper.php',
+        'Spies\\PassedArgument' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/PassedArgument.php',
+        'Spies\\SpiesConstraintWasCalled' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/SpiesConstraintWasCalled.php',
+        'Spies\\SpiesConstraintWasCalledBefore' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/SpiesConstraintWasCalledBefore.php',
+        'Spies\\SpiesConstraintWasCalledTimes' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/SpiesConstraintWasCalledTimes.php',
+        'Spies\\SpiesConstraintWasCalledTimesWith' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/SpiesConstraintWasCalledTimesWith.php',
+        'Spies\\SpiesConstraintWasCalledWhen' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/SpiesConstraintWasCalledWhen.php',
+        'Spies\\SpiesConstraintWasCalledWith' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/SpiesConstraintWasCalledWith.php',
+        'Spies\\SpiesConstraintWasNotCalled' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/SpiesConstraintWasNotCalled.php',
+        'Spies\\Spy' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/Spy.php',
+        'Spies\\SpyCall' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/SpyCall.php',
+        'Spies\\SpyCallFormatter' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/SpyCallFormatter.php',
+        'Spies\\TestCase' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/TestCase.php',
+        'Spies\\UndefinedFunctionException' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/UndefinedFunctionException.php',
+        'Spies\\UnmetExpectationException' => __DIR__ . '/..' . '/sirbrillig/spies/src/Spies/UnmetExpectationException.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Component\\BrowserKit\\AbstractBrowser' => __DIR__ . '/..' . '/symfony/browser-kit/AbstractBrowser.php',
         'Symfony\\Component\\BrowserKit\\Client' => __DIR__ . '/..' . '/symfony/browser-kit/Client.php',
@@ -6891,6 +6928,8 @@ class ComposerStaticInitb4535d9d55d099ad7759c10fb64e47fd
         'Tests\\Feature\\CanDeleteProductTest' => __DIR__ . '/../..' . '/tests/Feature/CanDeleteProductTest.php',
         'Tests\\Feature\\CanDeleteUserTest' => __DIR__ . '/../..' . '/tests/Feature/CanDeleteUserTest.php',
         'Tests\\Feature\\ExampleTest' => __DIR__ . '/../..' . '/tests/Feature/ExampleTest.php',
+        'Tests\\Feature\\MockProductTest' => __DIR__ . '/../..' . '/tests/Feature/MockProductTest.php',
+        'Tests\\Feature\\MockUsersTest' => __DIR__ . '/../..' . '/tests/Feature/MockUsersTest.php',
         'Tests\\Feature\\UserTest' => __DIR__ . '/../..' . '/tests/Feature/UserTest.php',
         'Tests\\Feature\\brandsTest' => __DIR__ . '/../..' . '/tests/Feature/brandsTest.php',
         'Tests\\Feature\\databasehasTest' => __DIR__ . '/../..' . '/tests/Feature/databasehasTest.php',
@@ -6899,6 +6938,7 @@ class ComposerStaticInitb4535d9d55d099ad7759c10fb64e47fd
         'Tests\\Unit\\BrandPageTest' => __DIR__ . '/../..' . '/tests/Unit/BrandPageTest.php',
         'Tests\\Unit\\ContactMessageTest' => __DIR__ . '/../..' . '/tests/Unit/ContactMessageTest.php',
         'Tests\\Unit\\ContactUserTest' => __DIR__ . '/../..' . '/tests/Unit/ContactUserTest.php',
+        'Tests\\Unit\\DoesStoreExistTest' => __DIR__ . '/../..' . '/tests/Unit/DoesStoreExistTest.php',
         'Tests\\Unit\\UserTest' => __DIR__ . '/../..' . '/tests/Unit/UserTest.php',
         'Tests\\Unit\\homeIconTest' => __DIR__ . '/../..' . '/tests/Unit/homeIconTest.php',
         'Tests\\Unit\\homepagetitleTest' => __DIR__ . '/../..' . '/tests/Unit/homepagetitleTest.php',

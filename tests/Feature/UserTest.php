@@ -13,7 +13,7 @@ class UserTest extends TestCase
      *
      * @return void
      */
-    public function test_example()
+    public function test_users()
     {
         $response = $this->get('/');
 

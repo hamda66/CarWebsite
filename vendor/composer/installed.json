@@ -6871,6 +6871,64 @@
             "install-path": "../sebastian/version"
         },
         {
+            "name": "sirbrillig/spies",
+            "version": "v1.10.0",
+            "version_normalized": "1.10.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sirbrillig/spies.git",
+                "reference": "099c0c847d445e30e5ebd06da362a408285ed813"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sirbrillig/spies/zipball/099c0c847d445e30e5ebd06da362a408285ed813",
+                "reference": "099c0c847d445e30e5ebd06da362a408285ed813",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "antecedent/patchwork": "^2.0.0",
+                "phpunit/phpunit": "^5.2"
+            },
+            "time": "2017-10-30T22:13:10+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Spies": "src/"
+                },
+                "files": [
+                    "src/Spies/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Payton Swick",
+                    "email": "payton@foolord.com"
+                }
+            ],
+            "description": "Easier spies, stubs, and mocking for PHP tests",
+            "homepage": "https://github.com/sirbrillig/spies",
+            "keywords": [
+                "mocking",
+                "phpunit",
+                "spies",
+                "spy",
+                "stubs"
+            ],
+            "support": {
+                "issues": "https://github.com/sirbrillig/spies/issues",
+                "source": "https://github.com/sirbrillig/spies/tree/master"
+            },
+            "install-path": "../sirbrillig/spies"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.3.0",
             "version_normalized": "6.3.0.0",
@@ -10146,6 +10204,7 @@
         "sebastian/object-reflector",
         "sebastian/recursion-context",
         "sebastian/resource-operations",
-        "sebastian/type"
+        "sebastian/type",
+        "sirbrillig/spies"
     ]
 }

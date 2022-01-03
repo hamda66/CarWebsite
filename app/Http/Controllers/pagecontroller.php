@@ -24,11 +24,14 @@ class pagecontroller extends Controller
    public function login(){
        return view('pages.login');
    }
-    public function registerpage(){
-       return view('Auth.register');
-    }
+   public function registerpage(){
+    return view('Auth.register');
+ } 
+ public function shoppage(){
+    return view('pages.shop');
+ }
    public function store(){
-    return view('pages.store');
+    return view('pages.Carstore');
    }
 
 

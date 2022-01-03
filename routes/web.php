@@ -23,7 +23,7 @@ Route::get('about', 'pagecontroller@about');
 Route::get('contact', 'pagecontroller@contact');
 Route::get('login', 'pagecontroller@login');
 Route::get('register', 'pagecontroller@registerpage');
-Route::get('store', 'pagecontroller@store');
+Route::get('Carstore', 'pagecontroller@Carstore');
 
 //use app\Http\Controllers\regController;[pagecontroller::class,'addData']
 //Route::view('register','login');
@@ -42,4 +42,4 @@ Route::group(['middleware'=>'customAuth'],function(){
 
 Auth::routes();
 
-Route::get('/main', [App\Http\Controllers\HomeController::class, 'index'])->name('main');
+//Route::get('/main', [App\Http\Controllers\HomeController::class, 'index'])->name('main');
